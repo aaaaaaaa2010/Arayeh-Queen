@@ -1,22 +1,36 @@
 let currentLang = localStorage.getItem("selectedLanguage") || "fa";
 
-const tools = [
-  { name: "مدیریت پروژه", description: "این ابزار بهت کمک می‌کنه پروژه‌هاتو ساختاریافته و مرحله‌به‌مرحله پیش ببری." },
-  { name: "مولد ایده", description: "با استفاده از الگوریتم‌های خلاق، بهت ایده‌های نو برای کسب‌وکار یا محتوا می‌ده." },
-  { name: "بررسی متن", description: "متن‌هاتو از نظر نگارشی، لحن یا حرفه‌ای بودن بررسی می‌کنه." }
-];
-
 function loadLanguage(lang) {
   fetch("lang.json")
     .then(res => res.json())
     .then(data => {
       const translations = data[lang];
+
+      // ترجمهٔ المان‌های دارای data-i18n
       document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
         if (translations[key]) {
           el.textContent = translations[key];
         }
       });
+
+      // ابزارها رو از JSON لود کن
+      const toolList = document.getElementById("tool-list");
+      const toolContent = document.getElementById("tool-content");
+      toolList.innerHTML = "";
+      toolContent.textContent = "";
+
+      if (translations.toolsList) {
+        translations.toolsList.forEach(tool => {
+          const button = document.createElement("button");
+          button.className = "tool-button";
+          button.textContent = tool.name;
+          button.addEventListener("click", () => {
+            toolContent.textContent = tool.description;
+          });
+          toolList.appendChild(button);
+        });
+      }
     });
 }
 
@@ -25,6 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const langBtn = document.getElementById("lang-btn");
   const langPopup = document.getElementById("lang-popup");
+
   langBtn.addEventListener("click", () => {
     langPopup.classList.remove("hidden");
     setTimeout(() => langPopup.classList.add("show"), 10);
@@ -49,18 +64,6 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => langPopup.classList.add("hidden"), 300);
     const savedLang = localStorage.getItem("selectedLanguage") || "fa";
     loadLanguage(savedLang);
-  });
-
-  const toolList = document.getElementById("tool-list");
-  const toolContent = document.getElementById("tool-content");
-  tools.forEach(tool => {
-    const button = document.createElement("button");
-    button.className = "tool-button";
-    button.textContent = tool.name;
-    button.addEventListener("click", () => {
-      toolContent.textContent = tool.description;
-    });
-    toolList.appendChild(button);
   });
 
   document.getElementById("home-link").addEventListener("click", e => {
