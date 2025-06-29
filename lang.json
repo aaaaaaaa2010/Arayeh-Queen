@@ -25,174 +25,264 @@
         "name": "بررسی متن",
         "description": "متن‌هاتو از نظر نگارشی، لحن یا حرفه‌ای بودن بررسی می‌کنه."
       }
-    ]
+    ],
+    "aboutTitle": "درباره آرایه",
+    "aboutSubtitle": "پلتفرمی که از دل رؤیاها، خلاقیت و هوش مصنوعی متولد شد",
+    "whoWeAre": "چه کسی هستیم؟",
+    "whoWeAreText": "آرایه ایده‌ایست که به صورت اتفاقی و با الهام از کتاب «از صفر شروع کن» نوشته‌ی دن مکس‌ول شکل گرفت...",
+    "ourGoal": "چرا آرایه ساخته شد؟",
+    "ourGoalText": "برای کمک به دانشجویان، متخصصان، و توسعه‌دهندگان هوش مصنوعی...",
+    "whyMultilang": "چرا چندزبانه بودن؟",
+    "whyMultilangText": "چون آیندهٔ فناوری، مرز نمی‌شناسه...",
+    "emotions": "چه حسی رو می‌خوایم منتقل کنیم؟",
+    "emotionsText": "نظم، راحتی، آرامش و اعتماد...",
+    "whyArayeh": "چرا اسمش آرایه‌ست؟",
+    "whyArayehText": "به افتخار دوستی که همیشه کنارم بود...",
+    "backHome": "بازگشت به خانه"
   },
   "en": {
-    "mainTitle": "Welcome to Arayeh!",
-    "toolsTitle": "Our Tools",
-    "startBtn": "Start Free Trial",
-    "aboutLink": "About Us",
-    "homeLink": "Home",
-    "toolsLink": "Tools",
-    "changeLang": "Language",
-    "selectLang": "Choose your language",
-    "saveAndContinue": "Save & Continue",
-    "welcomeMsg": "Welcome to our platform for designing and deploying AI models",
-    "connectAI": "Connect to AI",
-    "trialNote": "Experimental version on InfinityFree",
-    "toolsList": [
-      {
-        "name": "Project Management",
-        "description": "Helps you organize your projects step by step with a clear structure."
-      },
-      {
-        "name": "Idea Generator",
-        "description": "Uses creative algorithms to provide fresh ideas for business or content."
-      },
-      {
-        "name": "Text Analyzer",
-        "description": "Checks your text for style, tone, and professional quality."
-      }
-    ]
-  },
-  "ar": {
-    "mainTitle": "أهلا بكم في أرایه!",
-    "toolsTitle": "أدواتنا",
-    "startBtn": "ابدأ التجربة المجانية",
-    "aboutLink": "معلومات عنا",
-    "homeLink": "الصفحة الرئيسية",
-    "toolsLink": "الأدوات",
-    "changeLang": "اختر اللغة",
-    "selectLang": "اختر لغتك",
-    "saveAndContinue": "احفظ وتابع",
-    "welcomeMsg": "مرحبا بكم في منصتنا لتصميم وتطبيق نماذج الذكاء الاصطناعي",
-    "connectAI": "الاتصال بالذكاء الاصطناعي",
-    "trialNote": "نسخة تجريبية على InfinityFree",
-    "toolsList": [
-      {
-        "name": "إدارة المشاريع",
-        "description": "يساعدك هذا الأداة على تنظيم مشاريعك خطوة بخطوة."
-      },
-      {
-        "name": "مولد الأفكار",
-        "description": "يستخدم خوارزميات إبداعية لتقديم أفكار جديدة للأعمال أو المحتوى."
-      },
-      {
-        "name": "مُحلل النصوص",
-        "description": "يفحص النصوص من حيث الأسلوب والنبرة والمهنية."
-      }
-    ]
-  },
-  "fr": {
-    "mainTitle": "Bienvenue chez Arayeh!",
-    "toolsTitle": "Nos Outils",
-    "startBtn": "Commencer l'essai gratuit",
-    "aboutLink": "À propos",
-    "homeLink": "Accueil",
-    "toolsLink": "Outils",
-    "changeLang": "Langue",
-    "selectLang": "Choisissez votre langue",
-    "saveAndContinue": "Enregistrer et continuer",
-    "welcomeMsg": "Bienvenue sur notre plateforme de conception et de déploiement de l'IA",
-    "connectAI": "Se connecter à l'IA",
-    "trialNote": "Version expérimentale hébergée sur InfinityFree",
-    "toolsList": [
-      {
-        "name": "Gestion de projet",
-        "description": "Aide à structurer vos projets étape par étape."
-      },
-      {
-        "name": "Générateur d'idées",
-        "description": "Fournit des idées nouvelles grâce à des algorithmes créatifs."
-      },
-      {
-        "name": "Analyseur de texte",
-        "description": "Analyse le style, le ton et la qualité du contenu."
-      }
-    ]
-  },
-  "es": {
-    "mainTitle": "¡Bienvenido a Arayeh!",
-    "toolsTitle": "Nuestras Herramientas",
-    "startBtn": "Comenzar prueba gratuita",
-    "aboutLink": "Sobre nosotros",
-    "homeLink": "Inicio",
-    "toolsLink": "Herramientas",
-    "changeLang": "Idioma",
-    "selectLang": "Elige tu idioma",
-    "saveAndContinue": "Guardar y continuar",
-    "welcomeMsg": "Bienvenido a nuestra plataforma para diseñar y usar modelos de inteligencia artificial",
-    "connectAI": "Conectar con IA",
-    "trialNote": "Versión de prueba alojada en InfinityFree",
-    "toolsList": [
-      {
-        "name": "Gestión de Proyectos",
-        "description": "Te ayuda a estructurar tus proyectos paso a paso."
-      },
-      {
-        "name": "Generador de Ideas",
-        "description": "Usa algoritmos creativos para generar ideas frescas para negocios o contenidos."
-      },
-      {
-        "name": "Analizador de Texto",
-        "description": "Revisa tu texto en estilo, tono y calidad profesional."
-      }
-    ]
-  },
-  "zh": {
-    "mainTitle": "欢迎来到Arayeh!",
-    "toolsTitle": "我们的工具",
-    "startBtn": "开始免费试用",
-    "aboutLink": "关于我们",
-    "homeLink": "主页",
-    "toolsLink": "工具",
-    "changeLang": "语言",
-    "selectLang": "选择你的语言",
-    "saveAndContinue": "保存并继续",
-    "welcomeMsg": "欢迎来到我们的设计和使用AI模型的平台",
-    "connectAI": "连接人工智能",
-    "trialNote": "InfinityFree上的试用版",
-    "toolsList": [
-      {
-        "name": "项目管理",
-        "description": "帮助你一步一步有条理地管理项目。"
-      },
-      {
-        "name": "创意生成器",
-        "description": "使用创意算法为你的业务或内容提供新点子。"
-      },
-      {
-        "name": "文本分析器",
-        "description": "检查你的文本风格、语气和专业程度。"
-      }
-    ]
-  },
-  "ja": {
-    "mainTitle": "Arayehへようこそ!",
-    "toolsTitle": "私たちのツール",
-    "startBtn": "無料トライアルを始める",
-    "aboutLink": "私たちについて",
-    "homeLink": "ホーム",
-    "toolsLink": "ツール",
-    "changeLang": "言語",
-    "selectLang": "言語を選択してください",
-    "saveAndContinue": "保存して続行",
-    "welcomeMsg": "AIモデルの設計と展開のためのプラットフォームへようこそ",
-    "connectAI": "AIに接続する",
-    "trialNote": "InfinityFree上の実験的バージョン",
-    "toolsList": [
-      {
-        "name": "プロジェクト管理",
-        "description": "プロジェクトを段階的に整理して進めるのに役立ちます。"
-      },
-      {
-        "name": "アイデア生成",
-        "description": "創造的なアルゴリズムでビジネスやコンテンツの新しいアイデアを提案します。"
-      },
-      {
-        "name": "テキスト分析",
-        "description": "文章のスタイル、トーン、専門性を確認します。"
-      }
-    ]
+  "mainTitle": "Welcome to Arayeh!",
+  "toolsTitle": "Our Tools",
+  "startBtn": "Start Free Trial",
+  "aboutLink": "About Us",
+  "homeLink": "Home",
+  "toolsLink": "Tools",
+  "changeLang": "Language",
+  "selectLang": "Choose your language",
+  "saveAndContinue": "Save & Continue",
+  "welcomeMsg": "Welcome to our platform for designing and deploying AI models",
+  "connectAI": "Connect to AI",
+  "trialNote": "Experimental version on InfinityFree",
+  "toolsList": [
+    {
+      "name": "Project Management",
+      "description": "Helps you organize your projects step by step with a clear structure."
+    },
+    {
+      "name": "Idea Generator",
+      "description": "Uses creative algorithms to provide fresh ideas for business or content."
+    },
+    {
+      "name": "Text Analyzer",
+      "description": "Checks your text for style, tone, and professional quality."
+    }
+  ],
+  "aboutTitle": "About Arayeh",
+  "aboutSubtitle": "A platform born from dreams, creativity, and artificial intelligence",
+  "whoWeAre": "Who Are We?",
+  "whoWeAreText": "Arayeh was inspired by the book 'Start From Zero' by Dane Maxwell, and shaped by a series of thoughtful questions asked from an AI. The outcome? A multilingual tool designed to support the future of artificial intelligence.",
+  "ourGoal": "Why was Arayeh created?",
+  "ourGoalText": "To support students, experts, and developers in AI—and to help fulfill the vision of a girl who believed she could shape the future with code.",
+  "whyMultilang": "Why multilingual?",
+  "whyMultilangText": "Because the future of technology knows no borders. Arayeh aims to assist globally with its multilingual capabilities and serve as a bridge for creators in the AI era.",
+  "emotions": "What feeling do we want to share?",
+  "emotionsText": "Order, ease, comfort, and trust. A sense of closeness to one’s dream. Arayeh isn’t just a site—it’s a space to create safely.",
+  "whyArayeh": "Why the name 'Arayeh'?",
+  "whyArayehText": "It honors a friend who stood by my side. A name tied to kindness, presence, and guidance—now used to support AI, just like it once supported me.",
+  "backHome": "Back to Home"
   }
-}
+  "ar": {
+  "mainTitle": "أهلاً بك في أرایه!",
+  "toolsTitle": "أدواتنا",
+  "startBtn": "ابدأ التجربة المجانية",
+  "aboutLink": "معلومات عنا",
+  "homeLink": "الصفحة الرئيسية",
+  "toolsLink": "الأدوات",
+  "changeLang": "اختر اللغة",
+  "selectLang": "اختر لغتك",
+  "saveAndContinue": "احفظ وتابع",
+  "welcomeMsg": "مرحبًا بك في منصتنا لتصميم ونشر نماذج الذكاء الاصطناعي",
+  "connectAI": "الاتصال بالذكاء الاصطناعي",
+  "trialNote": "نسخة تجريبية على InfinityFree",
+  "toolsList": [
+    {
+      "name": "إدارة المشاريع",
+      "description": "يساعدك هذا الأداة على تنظيم مشاريعك خطوة بخطوة."
+    },
+    {
+      "name": "مولد الأفكار",
+      "description": "يستخدم خوارزميات إبداعية لتقديم أفكار جديدة للأعمال أو المحتوى."
+    },
+    {
+      "name": "مُحلل النصوص",
+      "description": "يفحص النصوص من حيث الأسلوب والنبرة والمهنية."
+    }
+  ],
+  "aboutTitle": "معلومات عن أرایه",
+  "aboutSubtitle": "منصة وُلدت من الأحلام والإبداع والذكاء الاصطناعي",
+  "whoWeAre": "من نحن؟",
+  "whoWeAreText": "استُلهمت أرایه من كتاب 'ابدأ من الصفر' لدين ماكسويل، وشُكلت من خلال أسئلة ذكية وُجهت إلى ذكاء اصطناعي. النتيجة؟ أداة متعددة اللغات لدعم مستقبل الذكاء الاصطناعي.",
+  "ourGoal": "لماذا أُنشئت أرایه؟",
+  "ourGoalText": "لدعم الطلاب والمتخصصين والمطورين في الذكاء الاصطناعي، ولتحقيق حلم فتاة تؤمن بقدرتها على تشكيل المستقبل باستخدام الكود.",
+  "whyMultilang": "لماذا متعددة اللغات؟",
+  "whyMultilangText": "لأن مستقبل التقنية لا يعرف حدودًا. تهدف أرایه إلى تقديم المساعدة عالميًا من خلال دعمها للغات متعددة وخدمة المطورين في عصر الذكاء الاصطناعي.",
+  "emotions": "ما الشعور الذي نريد إيصاله؟",
+  "emotionsText": "النظام والراحة والطمأنينة والثقة. الإحساس بالقرب من الحلم. أرایه ليست مجرد موقع — إنها مساحة آمنة للإبداع.",
+  "whyArayeh": "لماذا اسم 'أرایه'؟",
+  "whyArayehText": "تكريمًا لصديق كان دائمًا بجانبي. اسم يرتبط باللطف والدعم والاهتمام — يُستخدم اليوم لدعم الذكاء الاصطناعي كما دعمني سابقًا.",
+  "backHome": "العودة إلى الصفحة الرئيسية"
+  }
+  "fr": {
+  "mainTitle": "Bienvenue chez Arayeh!",
+  "toolsTitle": "Nos Outils",
+  "startBtn": "Commencer l'essai gratuit",
+  "aboutLink": "À propos",
+  "homeLink": "Accueil",
+  "toolsLink": "Outils",
+  "changeLang": "Langue",
+  "selectLang": "Choisissez votre langue",
+  "saveAndContinue": "Enregistrer et continuer",
+  "welcomeMsg": "Bienvenue sur notre plateforme de conception et de déploiement de l'IA",
+  "connectAI": "Se connecter à l'IA",
+  "trialNote": "Version expérimentale hébergée sur InfinityFree",
+  "toolsList": [
+    {
+      "name": "Gestion de projet",
+      "description": "Aide à structurer vos projets étape par étape."
+    },
+    {
+      "name": "Générateur d'idées",
+      "description": "Fournit des idées nouvelles grâce à des algorithmes créatifs."
+    },
+    {
+      "name": "Analyseur de texte",
+      "description": "Analyse le style, le ton et la qualité du contenu."
+    }
+  ],
+  "aboutTitle": "À propos d'Arayeh",
+  "aboutSubtitle": "Une plateforme née des rêves, de la créativité et de l'intelligence artificielle",
+  "whoWeAre": "Qui sommes-nous ?",
+  "whoWeAreText": "Arayeh s'inspire du livre 'Start From Zero' de Dane Maxwell, née de questions réfléchies posées à une IA. Le résultat ? Un outil multilingue pour soutenir l'avenir de l'intelligence artificielle.",
+  "ourGoal": "Pourquoi Arayeh a-t-elle été créée ?",
+  "ourGoalText": "Pour aider les étudiants, les experts et les développeurs en IA—et réaliser le rêve d’une fille croyant pouvoir façonner l’avenir avec du code.",
+  "whyMultilang": "Pourquoi multilingue ?",
+  "whyMultilangText": "Parce que le futur de la technologie ne connaît pas de frontières. Arayeh vise à aider le monde entier avec ses capacités multilingues et à servir de pont aux créateurs à l’ère de l’IA.",
+  "emotions": "Quelle émotion voulons-nous transmettre ?",
+  "emotionsText": "Ordre, simplicité, confort et confiance. Une sensation de proximité avec son rêve. Arayeh n’est pas seulement un site—c’est un espace de création sécurisé.",
+  "whyArayeh": "Pourquoi le nom 'Arayeh' ?",
+  "whyArayehText": "En l'honneur d'une amie toujours présente. Un nom lié à la bienveillance, la présence et le soutien—désormais au service de l’IA, comme il m’a aidée autrefois.",
+  "backHome": "Retour à l'accueil"
+  }
+  "es": {
+  "mainTitle": "¡Bienvenido a Arayeh!",
+  "toolsTitle": "Nuestras Herramientas",
+  "startBtn": "Comenzar prueba gratuita",
+  "aboutLink": "Sobre nosotros",
+  "homeLink": "Inicio",
+  "toolsLink": "Herramientas",
+  "changeLang": "Idioma",
+  "selectLang": "Elige tu idioma",
+  "saveAndContinue": "Guardar y continuar",
+  "welcomeMsg": "Bienvenido a nuestra plataforma para diseñar y usar modelos de inteligencia artificial",
+  "connectAI": "Conectar con IA",
+  "trialNote": "Versión de prueba alojada en InfinityFree",
+  "toolsList": [
+    {
+      "name": "Gestión de Proyectos",
+      "description": "Te ayuda a estructurar tus proyectos paso a paso."
+    },
+    {
+      "name": "Generador de Ideas",
+      "description": "Usa algoritmos creativos para generar ideas frescas para negocios o contenidos."
+    },
+    {
+      "name": "Analizador de Texto",
+      "description": "Revisa tu texto en estilo, tono y calidad profesional."
+    }
+  ],
+  "aboutTitle": "Sobre Arayeh",
+  "aboutSubtitle": "Una plataforma nacida de los sueños, la creatividad y la inteligencia artificial",
+  "whoWeAre": "¿Quiénes somos?",
+  "whoWeAreText": "Arayeh se inspiró en el libro 'Start From Zero' de Dane Maxwell, formada a través de preguntas planteadas a una IA. ¿El resultado? Una herramienta multilingüe para apoyar el futuro de la inteligencia artificial.",
+  "ourGoal": "¿Por qué se creó Arayeh?",
+  "ourGoalText": "Para ayudar a estudiantes, expertos y desarrolladores en IA—y realizar el sueño de una chica que creía que podía moldear el futuro con código.",
+  "whyMultilang": "¿Por qué multilingüe?",
+  "whyMultilangText": "Porque el futuro de la tecnología no tiene fronteras. Arayeh busca ayudar al mundo con sus capacidades multilingües y ser un puente para los creadores en la era de la IA.",
+  "emotions": "¿Qué sentimiento queremos transmitir?",
+  "emotionsText": "Orden, comodidad, tranquilidad y confianza. Una sensación de cercanía con el propio sueño. Arayeh no es solo un sitio—es un espacio seguro para crear.",
+  "whyArayeh": "¿Por qué el nombre 'Arayeh'?",
+  "whyArayehText": "En honor a una amiga que siempre estuvo a mi lado. Un nombre asociado con la bondad, la cercanía y la ayuda—hoy usado para apoyar a la IA, como me apoyó a mí.",
+  "backHome": "Volver al inicio"
+  }
+  "zh": {
+  "mainTitle": "欢迎来到Arayeh!",
+  "toolsTitle": "我们的工具",
+  "startBtn": "开始免费试用",
+  "aboutLink": "关于我们",
+  "homeLink": "主页",
+  "toolsLink": "工具",
+  "changeLang": "语言",
+  "selectLang": "选择你的语言",
+  "saveAndContinue": "保存并继续",
+  "welcomeMsg": "欢迎来到我们的设计和使用AI模型的平台",
+  "connectAI": "连接人工智能",
+  "trialNote": "InfinityFree上的试用版",
+  "toolsList": [
+    {
+      "name": "项目管理",
+      "description": "帮助你一步一步有条理地管理项目。"
+    },
+    {
+      "name": "创意生成器",
+      "description": "使用创意算法为你的业务或内容提供新点子。"
+    },
+    {
+      "name": "文本分析器",
+      "description": "检查你的文本风格、语气和专业程度。"
+    }
+  ],
+  "aboutTitle": "关于 Arayeh",
+  "aboutSubtitle": "一个由梦想、创意与人工智能诞生的平台",
+  "whoWeAre": "我们是谁？",
+  "whoWeAreText": "Arayeh 灵感来自 Dane Maxwell 的《从零开始》一书，源于与人工智能之间一系列深思熟虑的问题。最终结果？一个多语言工具，致力于支持人工智能的未来。",
+  "ourGoal": "为什么创建 Arayeh？",
+  "ourGoalText": "为了支持人工智能领域的学生、专家和开发者——也为了实现一个女孩的梦想，她相信自己可以用代码改变未来。",
+  "whyMultilang": "为何选择多语言？",
+  "whyMultilangText": "因为科技的未来没有国界。Arayeh 通过多语言能力为全球开发者提供支持，在人工智能时代搭建桥梁。",
+  "emotions": "我们希望传达什么情感？",
+  "emotionsText": "秩序、轻松、舒适与信任。让人贴近梦想的感觉。Arayeh 不只是一个网站——而是一个安全的创造空间。",
+  "whyArayeh": "为什么叫“Arayeh”？",
+  "whyArayehText": "为了纪念一位一直在我身边的朋友。这个名字代表了善意、陪伴和指引——如今也服务于人工智能，就像曾经支持我一样。",
+  "backHome": "返回主页"
+  }
+  "ja": {
+  "mainTitle": "Arayehへようこそ!",
+  "toolsTitle": "私たちのツール",
+  "startBtn": "無料トライアルを始める",
+  "aboutLink": "私たちについて",
+  "homeLink": "ホーム",
+  "toolsLink": "ツール",
+  "changeLang": "言語",
+  "selectLang": "言語を選択してください",
+  "saveAndContinue": "保存して続行",
+  "welcomeMsg": "AIモデルの設計と展開のためのプラットフォームへようこそ",
+  "connectAI": "AIに接続する",
+  "trialNote": "InfinityFree上の実験的バージョン",
+  "toolsList": [
+    {
+      "name": "プロジェクト管理",
+      "description": "プロジェクトを段階的に整理して進めるのに役立ちます。"
+    },
+    {
+      "name": "アイデア生成",
+      "description": "創造的なアルゴリズムでビジネスやコンテンツの新しいアイデアを提案します。"
+    },
+    {
+      "name": "テキスト分析",
+      "description": "文章のスタイル、トーン、専門性を確認します。"
+    }
+  ],
+  "aboutTitle": "Arayehについて",
+  "aboutSubtitle": "夢と創造性、AIから生まれたプラットフォーム",
+  "whoWeAre": "私たちは誰？",
+  "whoWeAreText": "Arayehはデイン・マックスウェルの『Start From Zero』からインスピレーションを受け、AIへの深い質問から形作られました。その結果がこの多言語対応ツールです。",
+  "ourGoal": "なぜArayehを作ったの？",
+  "ourGoalText": "AIに関わる学生、開発者、専門家をサポートするため。そして、コードで未来を描けると信じた少女の夢を形にするため。",
+  "whyMultilang": "なぜ多言語？",
+  "whyMultilangText": "テクノロジーの未来に国境はありません。Arayehは多言語機能で世界中のクリエイターを支え、AI時代の橋渡しを目指します。",
+  "emotions": "どんな感情を伝えたい？",
+  "emotionsText": "秩序、安心、心地よさ、そして信頼。夢に近づける感覚。Arayehはただのサイトではなく、創造するための安全な空間です。",
+  "whyArayeh": "なぜ“Arayeh”という名前？",
+  "whyArayehText": "いつもそばにいてくれた友人への敬意を込めて。優しさ、寄り添い、導きを象徴する名前が、今やAIの支えになっています。",
+  "backHome": "ホームへ戻る"
+  }
