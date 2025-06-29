@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background: #d0e9ff;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  background: #009fe3;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  color: white;
+}
+
+nav a, nav button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#lang-popup {
+  background: #ffffff;
+  border: 2px solid #009fe3;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  display: none;
+}
+
+#lang-popup.show {
+  display: block;
+}
+
+button {
+  background: #009fe3;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}

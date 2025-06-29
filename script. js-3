@@ -1,0 +1,167 @@
+let currentLang = localStorage.getItem("selectedLanguage") || "fa";
+
+const translations = {
+  fa: {
+    mainTitle: "به آرایه خوش اومدی!",
+    toolsTitle: "ابزارهای ما",
+    startBtn: "شروع آزمایشی",
+    aboutLink: "درباره ما",
+    homeLink: "خانه",
+    toolsLink: "ابزارها",
+    changeLang: "زبان",
+    selectLang: "زبان مورد نظر رو انتخاب کن",
+    saveAndContinue: "ذخیره و ادامه",
+    welcomeMsg: "به پلتفرم ما برای تنظیم، ساخت، و استفاده از مدل‌های هوش مصنوعی خوش آمدید",
+    connectAI: "اتصال به هوش مصنوعی",
+    trialNote: "نسخه آزمایشی روی InfinityFree"
+  },
+  en: {
+    mainTitle: "Welcome to Arayeh!",
+    toolsTitle: "Our Tools",
+    startBtn: "Start Free Trial",
+    aboutLink: "About Us",
+    homeLink: "Home",
+    toolsLink: "Tools",
+    changeLang: "Language",
+    selectLang: "Choose your language",
+    saveAndContinue: "Save & Continue",
+    welcomeMsg: "Welcome to our platform for designing and deploying AI models",
+    connectAI: "Connect to AI",
+    trialNote: "Experimental version on InfinityFree"
+  },
+  fr: {
+    mainTitle: "Bienvenue chez Arayeh!",
+    toolsTitle: "Nos Outils",
+    startBtn: "Commencer l'essai gratuit",
+    aboutLink: "À propos",
+    homeLink: "Accueil",
+    toolsLink: "Outils",
+    changeLang: "Langue",
+    selectLang: "Choisissez votre langue",
+    saveAndContinue: "Enregistrer et continuer",
+    welcomeMsg: "Bienvenue sur notre plateforme de conception et de déploiement de l’IA",
+    connectAI: "Se connecter à l'IA",
+    trialNote: "Version expérimentale hébergée sur InfinityFree"
+  },
+  es: {
+    mainTitle: "¡Bienvenido a Arayeh!",
+    toolsTitle: "Nuestras Herramientas",
+    startBtn: "Comenzar prueba gratuita",
+    aboutLink: "Sobre nosotros",
+    homeLink: "Inicio",
+    toolsLink: "Herramientas",
+    changeLang: "Idioma",
+    selectLang: "Elige tu idioma",
+    saveAndContinue: "Guardar y continuar",
+    welcomeMsg: "Bienvenido a nuestra plataforma para diseñar y usar modelos de inteligencia artificial",
+    connectAI: "Conectar con IA",
+    trialNote: "Versión de prueba alojada en InfinityFree"
+  },
+  zh: {
+    mainTitle: "欢迎来到Arayeh！",
+    toolsTitle: "我们的工具",
+    startBtn: "开始免费试用",
+    aboutLink: "关于我们",
+    homeLink: "首页",
+    toolsLink: "工具",
+    changeLang: "语言",
+    selectLang: "请选择语言",
+    saveAndContinue: "保存并继续",
+    welcomeMsg: "欢迎使用我们用于构建和部署AI模型的平台",
+    connectAI: "连接人工智能",
+    trialNote: "InfinityFree 上的试用版"
+  },
+  ja: {
+    mainTitle: "Arayehへようこそ！",
+    toolsTitle: "私たちのツール",
+    startBtn: "無料トライアルを開始",
+    aboutLink: "私たちについて",
+    homeLink: "ホーム",
+    toolsLink: "ツール",
+    changeLang: "言語",
+    selectLang: "言語を選択してください",
+    saveAndContinue: "保存して続行",
+    welcomeMsg: "AIモデルを構築・活用するためのプラットフォームへようこそ",
+    connectAI: "AIに接続",
+    trialNote: "InfinityFreeの試用版"
+  }
+};
+
+function loadLanguage(lang) {
+  const t = translations[lang];
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    if (t[key]) el.textContent = t[key];
+  });
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  loadLanguage(currentLang);
+
+  document.getElementById("lang-btn").addEventListener("click", () => {
+    document.getElementById("lang-popup").classList.remove("hidden");
+    setTimeout(() => document.getElementById("lang-popup").classList.add("show"), 10);
+  });
+
+  document.getElementById("lang-close-btn").addEventListener("click", () => {
+    document.getElementById("lang-popup").classList.remove("show");
+    setTimeout(() => document.getElementById("lang-popup").classList.add("hidden"), 300);
+  });
+
+  document.querySelectorAll(".flag-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const selected = btn.getAttribute("data-lang");
+      localStorage.setItem("selectedLanguage", selected);
+      loadLanguage(selected);
+    });
+  });
+
+  document.getElementById("lang-save-btn").addEventListener("click", () => {
+    const selectedLang = localStorage.getItem("selectedLanguage") || "fa";
+    loadLanguage(selectedLang);
+    document.getElementById("lang-popup").classList.remove("show");
+    setTimeout(() => document.getElementById("lang-popup").classList.add("hidden"), 300);
+  });
+
+  const tools = [
+    { name: "مدیریت پروژه", description: "این ابزار بهت کمک می‌کنه پروژه‌هاتو ساختاریافته پیش ببری." },
+    { name: "مولد ایده", description: "بهت ایده‌های نو برای محتوا و پروژه می‌ده." },
+    { name: "بررسی متن", description: "متن‌هاتو از نظر نگارشی و حرفه‌ای بودن بررسی می‌کنه." }
+  ];
+
+  const toolList = document.getElementById("tool-list");
+  const toolContent = document.getElementById("tool-content");
+
+  tools.forEach(tool => {
+    const button = document.createElement("button");
+    button.className = "tool-button";
+    button.textContent = tool.name;
+    button.addEventListener("click", () => {
+      toolContent.textContent = tool.description;
+    });
+    toolList.appendChild(button);
+  });
+
+  document.getElementById("home-link").addEventListener("click", e => {
+    e.preventDefault();
+    alert("فعلاً تو صفحه خانه هستی 🏠");
+  });
+
+  document.getElementById("tools-link").addEventListener("click", e => {
+    e.preventDefault();
+    toolList.scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.getElementById("about-link").addEventListener("click", e => {
+    e.preventDefault();
+    alert("بخش درباره ما به‌زودی اضافه می‌شه 💬");
+  });
+
+  document.getElementById("start-btn").addEventListener("click", () => {
+    alert("آزمایش رایگان هنوز فعال نشده 😅 ولی تو اولین نفری هستی که دعوت می‌شی!");
+  });
+
+  document.getElementById("ai-btn").addEventListener("click", () => {
+    alert("در حال اتصال به هوش مصنوعی... آماده‌باش برای جادو! 🤖✨");
+  });
+});

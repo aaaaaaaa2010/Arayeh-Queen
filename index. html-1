@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سایت آرایه</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#" id="home-link" data-i18n="homeLink">خانه</a></li>
+      <li><a href="#" id="tools-link" data-i18n="toolsLink">ابزارها</a></li>
+      <li><a href="#" id="about-link" data-i18n="aboutLink">درباره ما</a></li>
+      <li><button id="lang-btn" data-i18n="changeLang">زبان</button></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1 id="main-title" data-i18n="mainTitle">به آرایه خوش اومدی!</h1>
+    <p data-i18n="trialNote">نسخه آزمایشی روی InfinityFree</p>
+  </section>
+
+  <div id="lang-popup" class="hidden">
+    <button id="lang-close-btn">×</button>
+    <h3 data-i18n="selectLang">زبان مورد نظر رو انتخاب کن</h3>
+    <div id="language-select">
+      <button class="flag-btn" data-lang="fa">فارسی</button>
+      <button class="flag-btn" data-lang="en">English</button>
+      <button class="flag-btn" data-lang="fr">Français</button>
+      <button class="flag-btn" data-lang="es">Español</button>
+      <button class="flag-btn" data-lang="zh">中文</button>
+      <button class="flag-btn" data-lang="ja">日本語</button>
+    </div>
+    <button id="lang-save-btn" data-i18n="saveAndContinue">ذخیره و ادامه</button>
+  </div>
+
+  <section>
+    <h2 id="tools-title" data-i18n="toolsTitle">ابزارهای ما</h2>
+    <p data-i18n="welcomeMsg">به پلتفرم ما خوش آمدی</p>
+    <button id="start-btn" data-i18n="startBtn">شروع آزمایشی</button>
+    <button id="ai-btn" data-i18n="connectAI">اتصال به هوش مصنوعی</button>
+  </section>
+
+  <section id="tool-list"></section>
+  <section id="tool-content"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
