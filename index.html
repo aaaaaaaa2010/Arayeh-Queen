@@ -7,47 +7,43 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- تگ‌هایی که با ترجمه می‌شن -->
-  <h1 id="main-title"></h1>
-  <p>نسخه آزمایشی InfinityFree</p>
+  <h1 id="main-title" data-i18n="mainTitle"></h1>
+  <p id="trial-note" data-i18n="trialNote"></p>
 
-  <!-- نوار ناو -->
   <nav>
     <ul>
-      <li><a href="#" id="home-link">خانه</a></li>
-      <li><a href="#" id="tools-link">ابزارها</a></li>
-      <li><a href="#" id="about-link">درباره</a></li>
-      <li><button id="lang-btn">زبان</button></li>
+      <li><a href="#" id="home-link" data-i18n="homeLink"></a></li>
+      <li><a href="#" id="tools-link" data-i18n="toolsLink"></a></li>
+      <li><a href="#" id="about-link" data-i18n="aboutLink"></a></li>
+      <li><button id="lang-btn" data-i18n="changeLang"></button></li>
     </ul>
   </nav>
 
-  <!-- منوی انتخاب زبان -->
   <div id="lang-popup" class="hidden">
     <button id="lang-close-btn">×</button>
-    <h3>زبان مورد نظر رو انتخاب کن</h3>
+    <h3 data-i18n="selectLang"></h3>
     <div class="flags">
-      <button class="flag-btn" style="--i: 1">فارسی</button>
-      <button class="flag-btn" style="--i: 2">English</button>
-      <button class="flag-btn" style="--i: 3">العربية</button>
-      <button class="flag-btn" style="--i: 4">Français</button>
-      <button class="flag-btn" style="--i: 5">Español</button>
+      <button class="flag-btn" data-lang="fa">فارسی</button>
+      <button class="flag-btn" data-lang="en">English</button>
+      <button class="flag-btn" data-lang="ar">العربية</button>
+      <button class="flag-btn" data-lang="fr">Français</button>
+      <button class="flag-btn" data-lang="es">Español</button>
+      <button class="flag-btn" data-lang="zh">中文</button>
+      <button class="flag-btn" data-lang="ja">日本語</button>
     </div>
-    <button id="lang-save-btn">ذخیره و ادامه</button>
+    <button id="lang-save-btn" data-i18n="saveAndContinue"></button>
   </div>
 
-  <!-- بخش معرفی -->
   <header>
-    <h2 id="tools-title"></h2>
-    <p>پلتفرم ما برای تنظیم، ساخت، و استفاده از مدل‌های هوش مصنوعی خوش آمدید</p>
-    <button id="start-btn"></button>
-    <button id="ai-btn">اتصال به هوش مصنوعی</button>
+    <h2 id="tools-title" data-i18n="toolsTitle"></h2>
+    <p data-i18n="welcomeMsg"></p>
+    <button id="start-btn" data-i18n="startBtn"></button>
+    <button id="ai-btn" data-i18n="connectAI"></button>
   </header>
 
-  <!-- ابزارها -->
   <section id="tool-list"></section>
   <section id="tool-content"></section>
 
-  <!-- جاوااسکریپت -->
   <script src="script.js"></script>
 </body>
 </html>
