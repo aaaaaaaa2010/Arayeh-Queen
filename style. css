@@ -1,58 +1,41 @@
 body {
-  font-family: sans-serif;
-  background: #d0e9ff;
   margin: 0;
   padding: 0;
+  background-color: #d0e9ff; /* آبی آسمونی */
+  font-family: sans-serif;
   direction: rtl;
-  color: #333;
+  text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  background: #009fe3;
-  padding: 10px;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav ul li {
+nav {
+  background-color: #009fe3;
   color: white;
+  padding: 10px;
 }
 
 nav a, nav button {
+  margin: 0 10px;
   color: white;
   text-decoration: none;
   background: none;
   border: none;
   cursor: pointer;
-  font-weight: bold;
   font-size: 16px;
 }
 
+.container {
+  padding: 50px 20px;
+}
+
 #lang-popup {
-  background: #ffffff;
-  border: 2px solid #009fe3;
+  background-color: white;
+  border: 1px solid #009fe3;
   padding: 20px;
-  max-width: 300px;
+  width: 200px;
   margin: 20px auto;
   display: none;
 }
 
 #lang-popup.show {
   display: block;
-}
-
-button {
-  background: #009fe3;
-  color: white;
-  padding: 10px;
-  margin: 5px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.hidden {
-  display: none;
 }
