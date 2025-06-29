@@ -11,7 +11,21 @@
     "saveAndContinue": "ذخیره و ادامه",
     "welcomeMsg": "به پلتفرم ما برای طراحی و استفاده از مدل‌های هوش مصنوعی خوش آمدید",
     "connectAI": "اتصال به هوش مصنوعی",
-    "trialNote": "نسخه آزمایشی InfinityFree"
+    "trialNote": "نسخه آزمایشی InfinityFree",
+    "toolsList": [
+      {
+        "name": "مدیریت پروژه",
+        "description": "این ابزار بهت کمک می‌کنه پروژه‌هاتو ساختاریافته و مرحله‌به‌مرحله پیش ببری."
+      },
+      {
+        "name": "مولد ایده",
+        "description": "با استفاده از الگوریتم‌های خلاق، بهت ایده‌های نو برای کسب‌وکار یا محتوا می‌ده."
+      },
+      {
+        "name": "بررسی متن",
+        "description": "متن‌هاتو از نظر نگارشی، لحن یا حرفه‌ای بودن بررسی می‌کنه."
+      }
+    ]
   },
   "en": {
     "mainTitle": "Welcome to Arayeh!",
@@ -25,7 +39,21 @@
     "saveAndContinue": "Save & Continue",
     "welcomeMsg": "Welcome to our platform for designing and deploying AI models",
     "connectAI": "Connect to AI",
-    "trialNote": "Experimental version on InfinityFree"
+    "trialNote": "Experimental version on InfinityFree",
+    "toolsList": [
+      {
+        "name": "Project Management",
+        "description": "Helps you organize your projects step by step with a clear structure."
+      },
+      {
+        "name": "Idea Generator",
+        "description": "Uses creative algorithms to provide fresh ideas for business or content."
+      },
+      {
+        "name": "Text Analyzer",
+        "description": "Checks your text for style, tone, and professional quality."
+      }
+    ]
   },
   "ar": {
     "mainTitle": "أهلا بكم في أرایه!",
@@ -34,12 +62,26 @@
     "aboutLink": "معلومات عنا",
     "homeLink": "الصفحة الرئيسية",
     "toolsLink": "الأدوات",
-    "changeLang": "اللغة",
+    "changeLang": "اختر اللغة",
     "selectLang": "اختر لغتك",
     "saveAndContinue": "احفظ وتابع",
     "welcomeMsg": "مرحبا بكم في منصتنا لتصميم وتطبيق نماذج الذكاء الاصطناعي",
     "connectAI": "الاتصال بالذكاء الاصطناعي",
-    "trialNote": "نسخة تجريبية على InfinityFree"
+    "trialNote": "نسخة تجريبية على InfinityFree",
+    "toolsList": [
+      {
+        "name": "إدارة المشاريع",
+        "description": "يساعدك هذا الأداة على تنظيم مشاريعك خطوة بخطوة."
+      },
+      {
+        "name": "مولد الأفكار",
+        "description": "يستخدم خوارزميات إبداعية لتقديم أفكار جديدة للأعمال أو المحتوى."
+      },
+      {
+        "name": "مُحلل النصوص",
+        "description": "يفحص النصوص من حيث الأسلوب والنبرة والمهنية."
+      }
+    ]
   },
   "fr": {
     "mainTitle": "Bienvenue chez Arayeh!",
@@ -53,7 +95,21 @@
     "saveAndContinue": "Enregistrer et continuer",
     "welcomeMsg": "Bienvenue sur notre plateforme de conception et de déploiement de l'IA",
     "connectAI": "Se connecter à l'IA",
-    "trialNote": "Version expérimentale hébergée sur InfinityFree"
+    "trialNote": "Version expérimentale hébergée sur InfinityFree",
+    "toolsList": [
+      {
+        "name": "Gestion de projet",
+        "description": "Aide à structurer vos projets étape par étape."
+      },
+      {
+        "name": "Générateur d'idées",
+        "description": "Fournit des idées nouvelles grâce à des algorithmes créatifs."
+      },
+      {
+        "name": "Analyseur de texte",
+        "description": "Analyse le style, le ton et la qualité du contenu."
+      }
+    ]
   },
   "es": {
     "mainTitle": "¡Bienvenido a Arayeh!",
@@ -67,7 +123,21 @@
     "saveAndContinue": "Guardar y continuar",
     "welcomeMsg": "Bienvenido a nuestra plataforma para diseñar y usar modelos de inteligencia artificial",
     "connectAI": "Conectar con IA",
-    "trialNote": "Versión de prueba alojada en InfinityFree"
+    "trialNote": "Versión de prueba alojada en InfinityFree",
+    "toolsList": [
+      {
+        "name": "Gestión de Proyectos",
+        "description": "Te ayuda a estructurar tus proyectos paso a paso."
+      },
+      {
+        "name": "Generador de Ideas",
+        "description": "Usa algoritmos creativos para generar ideas frescas para negocios o contenidos."
+      },
+      {
+        "name": "Analizador de Texto",
+        "description": "Revisa tu texto en estilo, tono y calidad profesional."
+      }
+    ]
   },
   "zh": {
     "mainTitle": "欢迎来到Arayeh!",
@@ -81,7 +151,21 @@
     "saveAndContinue": "保存并继续",
     "welcomeMsg": "欢迎来到我们的设计和使用AI模型的平台",
     "connectAI": "连接人工智能",
-    "trialNote": "InfinityFree上的试用版"
+    "trialNote": "InfinityFree上的试用版",
+    "toolsList": [
+      {
+        "name": "项目管理",
+        "description": "帮助你一步一步有条理地管理项目。"
+      },
+      {
+        "name": "创意生成器",
+        "description": "使用创意算法为你的业务或内容提供新点子。"
+      },
+      {
+        "name": "文本分析器",
+        "description": "检查你的文本风格、语气和专业程度。"
+      }
+    ]
   },
   "ja": {
     "mainTitle": "Arayehへようこそ!",
@@ -95,6 +179,20 @@
     "saveAndContinue": "保存して続行",
     "welcomeMsg": "AIモデルの設計と展開のためのプラットフォームへようこそ",
     "connectAI": "AIに接続する",
-    "trialNote": "InfinityFree上の実験的バージョン"
+    "trialNote": "InfinityFree上の実験的バージョン",
+    "toolsList": [
+      {
+        "name": "プロジェクト管理",
+        "description": "プロジェクトを段階的に整理して進めるのに役立ちます。"
+      },
+      {
+        "name": "アイデア生成",
+        "description": "創造的なアルゴリズムでビジネスやコンテンツの新しいアイデアを提案します。"
+      },
+      {
+        "name": "テキスト分析",
+        "description": "文章のスタイル、トーン、専門性を確認します。"
+      }
+    ]
   }
 }
