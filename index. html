@@ -1,31 +1,0 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>آرایه | Arayeh</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav>
-    <a href="#" id="home-link">خانه</a>
-    <a href="#" id="about-link">درباره ما</a>
-    <button id="lang-btn">🌐</button>
-  </nav>
-
-  <div class="container">
-    <h1 id="main-title">به آرایه خوش اومدی!</h1>
-    <p id="welcome-msg">پلتفرمی برای ساخت و تعامل با مدل‌های هوش مصنوعی</p>
-    <button id="start-btn">شروع رایگان</button>
-  </div>
-
-  <div id="lang-popup" class="hidden">
-    <p>زبان رو انتخاب کن:</p>
-    <button class="lang-option" data-lang="fa">فارسی</button>
-    <button class="lang-option" data-lang="en">English</button>
-    <button id="lang-close-btn">بستن</button>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
