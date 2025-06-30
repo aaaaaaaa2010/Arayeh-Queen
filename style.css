@@ -1,146 +1,69 @@
-/* 🌤️ تنظیمات کلی */
+/* پس‌زمینه شکلاتی بزرگ با بافت */
 body {
-  font-family: "Vazirmatn", sans-serif;
-  background: linear-gradient(to bottom, #d0eaff, #ffffff);
-  color: #003044;
+  background: url('images/chocolate-bg.png') center center no-repeat,
+              radial-gradient(circle at top left, #4a2a18, #6b3e26);
+  background-size: cover;
+  color: #fff8f0;
+  font-family: 'Comic Neue', cursive, sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  position: relative;
 }
 
-/* نوار ناوبری */
-nav {
-  background-color: #a3d4ff;
-  padding: 10px 20px;
-}
-nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-nav a,
-#lang-btn {
-  color: #003244;
-  text-decoration: none;
+/* دکمه‌های آبنباتی برجسته */
+button, .btn {
+  background: linear-gradient(145deg, #ff85a2, #ffa94d);
+  border: 2px solid #ffffffaa;
+  border-radius: 30px;
+  padding: 14px 30px;
+  color: white;
+  font-size: 18px;
   font-weight: bold;
-  background: none;
-  border: none;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-nav a:hover,
-#lang-btn:hover {
-  color: #1a84d8;
-}
-
-/* پنجره انتخاب زبان */
-#lang-popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.9);
-  background-color: #ffffff;
-  border: 2px solid #90cdf4;
-  border-radius: 12px;
-  padding: 20px;
-  width: 90%;
-  max-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 102, 153, 0.2);
-  opacity: 0;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25),
+              inset 0 1px 2px rgba(255,255,255,0.4);
   transition: all 0.3s ease;
-  z-index: 10;
-}
-#lang-popup.show {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-#lang-popup.hidden {
-  display: none;
-}
-.flag-btn {
-  background-color: #e3f2ff;
-  color: #003244;
-  border: none;
-  padding: 10px 16px;
-  margin: 5px;
-  border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s;
-}
-.flag-btn:hover {
-  background-color: #c2e4ff;
-}
-#lang-save-btn,
-#lang-close-btn {
-  background-color: #64b5f6;
-  color: white;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-#lang-close-btn {
-  float: right;
-  font-size: 18px;
-  background: none;
-  color: #003244;
 }
 
-/* بخش معرفی */
-header {
-  text-align: center;
-  padding: 60px 20px;
-}
-header h2 {
-  color: #003244;
-}
-header p {
-  margin-top: 10px;
-  color: #315566;
-}
-#start-btn,
-#ai-btn {
-  background-color: #5caeff;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 10px;
-  font-size: 16px;
-  margin: 10px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-#start-btn:hover,
-#ai-btn:hover {
-  background-color: #3e9be9;
+button:hover, .btn:hover {
+  background: linear-gradient(145deg, #ffc1dc, #ffe16c);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3),
+              inset 0 2px 4px rgba(255,255,255,0.5);
 }
 
-/* ابزارها */
-#tool-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin: 30px 0;
+/* جعبه‌ها و توضیحات با زمینه‌ی لطیف شکلاتی */
+section, .card, .content-box {
+  background-color: #5a341fdd;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3),
+              inset 0 2px 4px rgba(255,255,255,0.1);
 }
-.tool-button {
-  background-color: #b3e5ff;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s ease;
+
+/* آبنبات‌های پراکنده در صفحه */
+.candy-float {
+  position: absolute;
+  width: 40px;
+  animation: floatCandy 10s infinite linear;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 0;
 }
-.tool-button:hover {
-  background-color: #9bd6f6;
-}
-#tool-content {
-  text-align: center;
-  font-size: 18px;
-  color: #003244;
-  margin-bottom: 40px;
+
+@keyframes floatCandy {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  25% { opacity: 0.8; }
+  50% { transform: translateY(50vh) rotate(180deg); }
+  100% {
+    transform: translateY(-50vh) rotate(360deg);
+    opacity: 0;
+  }
 }
