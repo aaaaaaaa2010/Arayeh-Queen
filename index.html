@@ -1,48 +1,46 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
+  <title>آرایه | صفحه اصلی</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>سایت آریه</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 id="main-title" data-i18n="mainTitle"></h1>
-  <p id="trial-note" data-i18n="trialNote"></p>
-  
-<nav>
-  <ul>
-    <li><a href="index.html">خانه</a></li>
-    <li><a href="about.html">درباره ما</a></li>
-    <li><a href="dream.html">ابزارهای هوشمند</a></li>
-  </ul>
-</nav>
+
+  <!-- نوار ناوبری هماهنگ -->
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">آرایه</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+      <li><a href="dream.html">ابزار های هوشمند</a></li>
+    </ul>
+  </nav>
+
+  <!-- منوی انتخاب زبان‌ها -->
+  <button id="lang-btn" data-i18n="selectLang">🌐 زبان</button>
 
   <div id="lang-popup" class="hidden">
-    <button id="lang-close-btn">×</button>
-    <h3 data-i18n="selectLang"></h3>
-    <div class="flags">
-      <button class="flag-btn" data-lang="fa">فارسی</button>
-      <button class="flag-btn" data-lang="en">English</button>
-      <button class="flag-btn" data-lang="ar">العربية</button>
-      <button class="flag-btn" data-lang="fr">Français</button>
-      <button class="flag-btn" data-lang="es">Español</button>
-      <button class="flag-btn" data-lang="zh">中文</button>
-      <button class="flag-btn" data-lang="ja">日本語</button>
+    <div class="langs">
+      <button class="flag-btn" data-lang="fa">🇮🇷 فارسی</button>
+      <button class="flag-btn" data-lang="en">🇬🇧 English</button>
+      <button class="flag-btn" data-lang="ar">🇸🇦 العربية</button>
+      <button class="flag-btn" data-lang="fr">🇫🇷 Français</button>
+      <button class="flag-btn" data-lang="es">🇪🇸 Español</button>
+      <button class="flag-btn" data-lang="zh">🇨🇳 中文</button>
+      <button class="flag-btn" data-lang="ja">🇯🇵 日本語</button>
     </div>
-    <button id="lang-save-btn" data-i18n="saveAndContinue"></button>
+    <button class="lang-save-btn" data-i18n="saveAndContinue">💾 ذخیره و ادامه</button>
   </div>
 
+  <!-- محتوای اصلی صفحه -->
   <header>
-    <h2 id="tools-title" data-i18n="toolsTitle"></h2>
-    <p data-i18n="welcomeMsg"></p>
-    <button id="start-btn" data-i18n="startBtn"></button>
-    <button id="ai-btn" data-i18n="connectAI"></button>
+    <h1 data-i18n="heroTitle">به آرایه خوش اومدی 👋</h1>
+    <p data-i18n="heroText">یک تجربه‌ی شخصی، هوشمند، چندزبانه و لبریز از رنگ‌ و رؤیا...</p>
+    <button class="tool-button" data-i18n="startBtn">شروع کن</button>
   </header>
 
-  <section id="tool-list"></section>
-  <section id="tool-content"></section>
-
+  <!-- اسکریپت‌های موردنیاز -->
   <script src="script.js"></script>
 </body>
 </html>
