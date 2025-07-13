@@ -3,31 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>سایت اولیه</title>
+  <title>سایت آرایه</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <h1 id="main-title" data-i18n="mainTitle"></h1>
   <p id="trial-note" data-i18n="trialNote"></p>
 
   <nav>
     <ul>
       <li><a href="index.html">خانه</a></li>
-      <li><a href="about.html">درباره</a></li>
-      <li><a href="dream.html">راهنما ایجاد</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+      <li><a href="dream.html">راهنما ابزار ها</a></li>
     </ul>
   </nav>
 
   <div id="langs-popup" class="hidden">
     <button id="lang-close-btn"></button>
     <h3 data-i18n="selectLang"></h3>
+
     <div class="flags">
       <!-- دکمه انتخاب زبان -->
       <button id="lang-btn" data-i18n="selectLang">🌐 زبان</button>
     </div>
   </div>
 
-  <!-- پنجره پاپاپ انتخاب زبان -->
+  <!-- پنجره پاپ‌آپ انتخاب زبان -->
   <div id="lang-popup" class="hidden">
     <div class="langs">
       <button class="flag-btn" data-lang="fa">فارسی</button>
@@ -38,8 +40,11 @@
       <button class="flag-btn" data-lang="zh">中文</button>
       <button class="flag-btn" data-lang="ja">日本語</button>
     </div>
+
     <button class="lang-save-btn" data-i18n="saveAndContinue">ذخیره و ادامه</button>
   </div>
+
+  <button id="lang-save-btn" data-i18n="saveAndContinue"></button>
 
   <header>
     <h2 id="tools-title" data-i18n="toolsTitle"></h2>
