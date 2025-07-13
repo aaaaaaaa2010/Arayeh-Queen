@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>وب</title>
+  <title>ARAYEH</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,8 +16,8 @@
   <nav>
     <ul>
       <li><a href="index.html">خانه</a></li>
-      <li><a href="about.html">درباره</a></li>
-      <li><a href="dream.html">ابزار ها</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+      <li><a href="dream.html">ابزار های هوشمند</a></li>
     </ul>
   </nav>
 
@@ -26,19 +26,20 @@
     <button id="lang-btn" data-i18n="selectLang">🌐 زبان</button>
   </div>
 
-  <!-- منوی پاپ‌آپ زبان‌ها -->
+  <!-- منوی زبان‌ها پاپ‌آپ -->
   <div id="lang-popup" class="hidden">
+    <h3 data-i18n="selectLang">انتخاب زبان</h3>
     <div class="langs">
-      <button class="flag-btn" data-lang="fa">فارسی</button>
-      <button class="flag-btn" data-lang="en">English</button>
-      <button class="flag-btn" data-lang="ar">العربية</button>
-      <button class="flag-btn" data-lang="fr">Français</button>
-      <button class="flag-btn" data-lang="es">Español</button>
-      <button class="flag-btn" data-lang="zh">中文</button>
-      <button class="flag-btn" data-lang="ja">日本語</button>
+      <button class="flag-btn" data-lang="fa">🇮🇷 فارسی</button>
+      <button class="flag-btn" data-lang="en">🇬🇧 English</button>
+      <button class="flag-btn" data-lang="ar">🇸🇦 العربية</button>
+      <button class="flag-btn" data-lang="fr">🇫🇷 Français</button>
+      <button class="flag-btn" data-lang="es">🇪🇸 Español</button>
+      <button class="flag-btn" data-lang="zh">🇨🇳 中文</button>
+      <button class="flag-btn" data-lang="ja">🇯🇵 日本語</button>
     </div>
     <button id="lang-save-btn" class="lang-save-btn" data-i18n="saveAndContinue">💾 ذخیره و ادامه</button>
-    <button id="lang-close-btn">✖️</button>
+    <button id="lang-close-btn">✖️ بستن</button>
   </div>
 
   <!-- بخش معرفی ابزارها -->
@@ -46,10 +47,10 @@
     <h2 id="tools-title" data-i18n="toolsTitle"></h2>
     <p id="welcome-msg" data-i18n="welcomeMsg"></p>
     <button id="start-btn" data-i18n="startBtn"></button>
-    <button id="ai-btn" data-i18n="connectAI"></button>
+    <button id="connect-ai-btn" data-i18n="connectAI"></button>
   </header>
 
-  <!-- بخش ابزارها و محتوای آن -->
+  <!-- لیست ابزارها و محتوای آن -->
   <section id="tool-list"></section>
   <section id="tool-content"></section>
 
