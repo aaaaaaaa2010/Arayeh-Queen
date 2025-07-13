@@ -1,45 +1,47 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> سایت آرایه</title>
+  <title>آریا</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- عنوان صفحه -->
   <h1 id="main-title" data-i18n="mainTitle"></h1>
   <p id="trial-note" data-i18n="trialNote"></p>
 
+  <!-- نوار ناوبری -->
   <nav>
     <ul>
-      <li><a href="index.html">خانه</a></li>
-      <li><a href="about.html">درباره ما</a></li>
-      <li><a href="dream.html">راهنما ابزار ها</a></li>
+      <li><a href="index.html">اول</a></li>
+      <li><a href="about.html">دوم</a></li>
+      <li><a href="dream.html">سوم</a></li>
     </ul>
   </nav>
 
-   <div id="langs-popup" class="hidden">
-    <button id="lang-close-btn"></button>
-    <h3 data-i18n="selectLang"></h3>
-    <div class="flags">
-    <!-- دکمه انتخاب زبان -->
-<button id="lang-btn" data-i18n="selectLang">🌐 زبان</button>
-
-<!-- پنجره پاپ‌آپ انتخاب زبان -->
-<div id="lang-popup" class="hidden">
-  <div class="langs">
-    <button class="flag-btn" data-lang="fa">🇮🇷 فارسی</button>
-    <button class="flag-btn" data-lang="en">🇬🇧 English</button>
-    <button class="flag-btn" data-lang="ar">🇸🇦 العربية</button>
-    <button class="flag-btn" data-lang="fr">🇫🇷 Français</button>
-    <button class="flag-btn" data-lang="es">🇪🇸 Español</button>
-    <button class="flag-btn" data-lang="zh">🇨🇳 中文</button>
-    <button class="flag-btn" data-lang="ja">🇯🇵 日本語</button>
-  </div>
-  <button id="lang-save-btn" class="lang-save-btn" data-i18n="saveAndContinue">ذخیره و ادامه</button>
+  <!-- دکمهٔ انتخاب زبان -->
+  <div class="flags">
+    <button id="lang-btn" data-i18n="selectLang">🌐 زبان</button>
   </div>
 
+  <!-- پنجرهٔ انتخاب زبان‌ها -->
+  <div id="lang-popup" class="hidden">
+    <div class="langs">
+      <button class="flag-btn" data-lang="fa">🇮🇷 فارسی</button>
+      <button class="flag-btn" data-lang="en">🇬🇧 English</button>
+      <button class="flag-btn" data-lang="de">🇩🇪 Deutsch</button>
+      <button class="flag-btn" data-lang="fr">🇫🇷 Français</button>
+      <button class="flag-btn" data-lang="es">🇪🇸 Español</button>
+      <button class="flag-btn" data-lang="zh">🇨🇳 中文</button>
+      <button class="flag-btn" data-lang="ja">🇯🇵 日本語</button>
+    </div>
+    <button id="lang-save-btn" class="lang-save-btn" data-i18n="saveAndContinue">💾 ذخیره و ادامه</button>
+    <button id="lang-close-btn">✖️</button>
+  </div>
+
+  <!-- هدر بخش ابزارها -->
   <header>
     <h2 id="tools-title" data-i18n="toolsTitle"></h2>
     <p id="welcome-msg" data-i18n="welcomeMsg"></p>
@@ -47,9 +49,11 @@
     <button id="ai-btn" data-i18n="connectAI"></button>
   </header>
 
+  <!-- بخش نمایش ابزارها -->
   <section id="tool-list"></section>
   <section id="tool-content"></section>
 
+  <!-- فایل جاوااسکریپت -->
   <script src="script.js"></script>
 </body>
 </html>
