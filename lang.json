@@ -38,23 +38,7 @@
     "emotionsText": "نظم، راحتی، آرامش و اعتماد...",
     "whyArayeh": "چرا اسمش آرایه‌ست؟",
     "whyArayehText": "به افتخار دوستی که همیشه کنارم بود...",
-    "backHome": "بازگشت به خانه", 
-
-   "toolTitle": "جعبه ابزار هوشمند شما",
-   "toolSubtitle": "با ابزارهایی که نیاز داری تجربه‌ای سفارشی با هوش مصنوعی بساز...",
-   "trialTime": "ساعت از دوره آزمایشی باقی مانده است",
-
-   "mindMapTitle": "+MindMap",
-   "mindMapDesc": "با کمک هوش مصنوعی نقشه ذهنی خودتو خلق کن و ایده‌هاتو گسترش بده",
-   "mindMapButton": "استفاده آزمایشی رایگان",
- 
-   "noiseFilterTitle": "NoiseFilter",
-   "noiseFilterDesc": "نویزهای ذهنی رو فیلتر کن و تمرکزت رو به دست بیار",
-   "noiseFilterButton": "فعال‌سازی کن",
-
-   "aiConnectorTitle": "AIConnector",
-   "aiConnectorDesc": "دنیای خودتو به مدل هوش متصل کن و تجربه‌تو گسترش بده",
-   "aiConnectorButton": "اتصال" 
+    "backHome": "بازگشت به خانه"
   },
   "en": {
   "mainTitle": "Welcome to Arayeh!",
@@ -95,23 +79,7 @@
   "emotionsText": "Order, ease, comfort, and trust. A sense of closeness to one’s dream. Arayeh isn’t just a site—it’s a space to create safely.",
   "whyArayeh": "Why the name 'Arayeh'?",
   "whyArayehText": "It honors a friend who stood by my side. A name tied to kindness, presence, and guidance—now used to support AI, just like it once supported me.",
-  "backHome": "Back to Home",
-
-  "toolTitle": "Your Smart Toolbox",
-  "toolSubtitle": "Create a personalized AI experience with the tools you need...",
-  "trialTime": "Hours remaining from the trial period",
-
-  "mindMapTitle": "+MindMap",
-  "mindMapDesc": "Create your mental map with AI and expand your ideas",
-  "mindMapButton": "Free trial use",
-
-  "noiseFilterTitle": "NoiseFilter",
-  "noiseFilterDesc": "Filter out mental noise and regain your focus",
-  "noiseFilterButton": "Activate",
-
-  "aiConnectorTitle": "AIConnector",
-  "aiConnectorDesc": "Connect your world to the AI model and expand your experience",
-  "aiConnectorButton": "Connect"
+  "backHome": "Back to Home" 
   }, 
   "ar": {
   "mainTitle": "أهلاً بك في أرایه!",
@@ -152,23 +120,7 @@
   "emotionsText": "النظام والراحة والطمأنينة والثقة. الإحساس بالقرب من الحلم. أرایه ليست مجرد موقع — إنها مساحة آمنة للإبداع.",
   "whyArayeh": "لماذا اسم 'أرایه'؟",
   "whyArayehText": "تكريمًا لصديق كان دائمًا بجانبي. اسم يرتبط باللطف والدعم والاهتمام — يُستخدم اليوم لدعم الذكاء الاصطناعي كما دعمني سابقًا.",
-  "backHome": "العودة إلى الصفحة الرئيسية", 
-
-  "toolTitle": "صندوق أدواتك الذكية",
-  "toolSubtitle": "أنشئ تجربة مخصصة مع الذكاء الاصطناعي باستخدام الأدوات التي تحتاجها...",
-  "trialTime": "الوقت المتبقي من الفترة التجريبية",
-
-  "mindMapTitle": "+MindMap",
-  "mindMapDesc": "أنشئ خريطتك الذهنية بمساعدة الذكاء الاصطناعي ووسّع أفكارك",
-  "mindMapButton": "استخدام تجريبي مجاني",
-
-  "noiseFilterTitle": "NoiseFilter",
-  "noiseFilterDesc": "قم بتصفية الضوضاء الذهنية واستعد تركيزك",
-  "noiseFilterButton": "فعّل الآن",
-
-  "aiConnectorTitle": "AIConnector",
-  "aiConnectorDesc": "قم بربط عالمك بنموذج الذكاء الاصطناعي ووسّع تجربتك",
-  "aiConnectorButton": "اتصال"
+  "backHome": "العودة إلى الصفحة الرئيسية"
   }, 
   "fr": {
   "mainTitle": "Bienvenue chez Arayeh!",
@@ -213,19 +165,7 @@
   
   "toolTitle": "Votre boîte à outils intelligente",
   "toolSubtitle": "Créez une expérience personnalisée avec l'intelligence artificielle selon vos besoins...",
-  "trialTime": "Heures restantes de la période d’essai",
-
-  "mindMapTitle": "+MindMap",
-  "mindMapDesc": "Créez votre carte mentale avec l’aide de l’IA et développez vos idées",
-  "mindMapButton": "Essai gratuit",
-
-  "noiseFilterTitle": "NoiseFilter",
-  "noiseFilterDesc": "Filtrez les bruits mentaux et retrouvez votre concentration",
-  "noiseFilterButton": "Activer",
-
-  "aiConnectorTitle": "AIConnector",
-  "aiConnectorDesc": "Connectez votre monde au modèle d'IA et enrichissez votre expérience",
-  "aiConnectorButton": "Connexion"
+  "trialTime": "Heures restantes de la période d’essai"
   }, 
   "es": {
   "mainTitle": "¡Bienvenido a Arayeh!",
@@ -266,23 +206,7 @@
   "emotionsText": "Orden, comodidad, tranquilidad y confianza. Una sensación de cercanía con el propio sueño. Arayeh no es solo un sitio—es un espacio seguro para crear.",
   "whyArayeh": "¿Por qué el nombre 'Arayeh'?",
   "whyArayehText": "En honor a una amiga que siempre estuvo a mi lado. Un nombre asociado con la bondad, la cercanía y la ayuda—hoy usado para apoyar a la IA, como me apoyó a mí.",
-  "backHome": "Volver al inicio", 
-  
-  "toolTitle": "Tu caja de herramientas inteligente",
-  "toolSubtitle": "Crea una experiencia personalizada con inteligencia artificial usando las herramientas que necesitas...",
-  "trialTime": "Horas restantes del periodo de prueba",
-
-  "mindMapTitle": "+MindMap",
-  "mindMapDesc": "Crea tu mapa mental con ayuda de la IA y expande tus ideas",
-  "mindMapButton": "Uso gratuito de prueba",
-
-  "noiseFilterTitle": "NoiseFilter",
-  "noiseFilterDesc": "Filtra el ruido mental y recupera tu concentración",
-  "noiseFilterButton": "Activar",
-
-  "aiConnectorTitle": "AIConnector",
-  "aiConnectorDesc": "Conecta tu mundo al modelo de IA y amplía tu experiencia",
-  "aiConnectorButton": "Conectar"
+  "backHome": "Volver al inicio"
   }, 
   "zh": {
   "mainTitle": "欢迎来到Arayeh!",
@@ -323,23 +247,7 @@
   "emotionsText": "秩序、轻松、舒适与信任。让人贴近梦想的感觉。Arayeh 不只是一个网站——而是一个安全的创造空间。",
   "whyArayeh": "为什么叫“Arayeh”？",
   "whyArayehText": "为了纪念一位一直在我身边的朋友。这个名字代表了善意、陪伴和指引——如今也服务于人工智能，就像曾经支持我一样。",
-  "backHome": "返回主页", 
-  
-  "toolTitle": "您的智能工具箱",
-  "toolSubtitle": "使用所需工具打造个性化的人工智能体验...",
-  "trialTime": "试用期剩余时间",
-
-  "mindMapTitle": "+MindMap",
-  "mindMapDesc": "借助人工智能创建思维导图，扩展您的想法",
-  "mindMapButton": "免费试用",
-
-  "noiseFilterTitle": "NoiseFilter",
-  "noiseFilterDesc": "过滤杂念，重新找回专注力",
-  "noiseFilterButton": "立即启用",
-
-  "aiConnectorTitle": "AIConnector",
-  "aiConnectorDesc": "将您的世界连接到 AI 模型，扩展个人体验",
-  "aiConnectorButton": "连接"
+  "backHome": "返回主页"
   }, 
   "ja": {
   "mainTitle": "Arayehへようこそ!",
@@ -380,22 +288,6 @@
   "emotionsText": "秩序、安心、心地よさ、そして信頼。夢に近づける感覚。Arayehはただのサイトではなく、創造するための安全な空間です。",
   "whyArayeh": "なぜ“Arayeh”という名前？",
   "whyArayehText": "いつもそばにいてくれた友人への敬意を込めて。優しさ、寄り添い、導きを象徴する名前が、今やAIの支えになっています。",
-  "backHome": "ホームへ戻る", 
- 
-  "toolTitle": "あなたのスマートツールボックス",
-  "toolSubtitle": "必要なツールでAI体験をカスタマイズしよう...",
-  "trialTime": "試用期間の残り時間",
-
-  "mindMapTitle": "+MindMap",
-  "mindMapDesc": "AIの力でマインドマップを作成し、アイデアを広げよう",
-  "mindMapButton": "無料お試し利用",
-
-  "noiseFilterTitle": "NoiseFilter",
-  "noiseFilterDesc": "頭の中のノイズを除去して集中力を取り戻そう",
-  "noiseFilterButton": "有効化する",
-
-  "aiConnectorTitle": "AIConnector",
-  "aiConnectorDesc": "あなたの世界をAIモデルに接続し、体験を広げよう",
-  "aiConnectorButton": "接続"
+  "backHome": "ホームへ戻る"
  }
 } 
