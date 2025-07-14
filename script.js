@@ -95,38 +95,4 @@ window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("ai-btn")?.addEventListener("click", () => {
     alert("در حال اتصال به هوش مصنوعی... آماده‌باش برای جادو! 🤖✨");
   });
- 
-  // اگر صفحه dream.html بود، ترجمه‌های اختصاصی ابزارها رو از lang-dream.json بگیر
-if (window.location.pathname.includes("dream.html")) {
-  const dreamLang = localStorage.getItem("selectedLanguage") || "fa";
-
-  fetch("lang-dream.json")
-    .then(res => res.json())
-    .then(data => {
-      const t = data[dreamLang] || data["fa"];
-
-      // اعمال ترجمه‌ها به بخش‌های خاص این صفحه
-      document.querySelector("h1")?.innerText = t.toolTitle;
-      document.querySelector("section > p")?.innerText = t.toolSubtitle;
-      document.querySelector("section > p:nth-of-type(2)")?.innerText = t.trialTime;
-
-      const cards = document.querySelectorAll(".tool-card");
-      if (cards.length >= 3) {
-        cards[0].querySelector("h2").innerText = t.mindMapTitle;
-        cards[0].querySelector("p").innerText = t.mindMapDesc;
-        cards[0].querySelector("button").innerText = t.mindMapButton;
-
-        cards[1].querySelector("h2").innerText = t.noiseFilterTitle;
-        cards[1].querySelector("p").innerText = t.noiseFilterDesc;
-        cards[1].querySelector("button").innerText = t.noiseFilterButton;
-
-        cards[2].querySelector("h2").innerText = t.aiConnectorTitle;
-        cards[2].querySelector("p").innerText = t.aiConnectorDesc;
-        cards[2].querySelector("button").innerText = t.aiConnectorButton;
-      }
-    })
-    .catch(err => {
-      console.error("خطا در بارگذاری ترجمه‌های dream:", err);
-    });
-  }); 
-
+});
