@@ -1,0 +1,114 @@
+{ 
+"fa": { 
+"toolTitle": "جعبه ابزار هوشمند شما", "toolSubtitle": "با ابزارهایی که نیاز داری تجربه ای سفارشی با هوش مصنوعی بساز...", "trialTime": "ساعت از دوره آزمایشی باقی مانده است",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "با کمک هوش مصنوعی نقشه ذهنی خودتو خلق کن و ایده هاتو گسترش بده",
+"mindMapButton": "استفاده آزمایشی رایگان",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "نویزهای ذهنی رو فیلتر کن و تمرکزت رو به دست بیار",
+"noiseFilterButton": "فعال سازی کن",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "دنیای خودتو به مدل هوش متصل کن و تجربه تو گسترش بده",
+"aiConnectorButton": "اتصال"
+
+}, 
+"en": { 
+"toolTitle": "Your Smart Toolbox", "toolSubtitle": "Create a personalized AI experience with the tools you need...", "trialTime": "Hours remaining from the trial period",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "Create your mental map with AI and expand your ideas",
+"mindMapButton": "Free trial use",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "Filter out mental noise and regain your focus",
+"noiseFilterButton": "Activate",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "Connect your world to the AI model and expand your experience",
+"aiConnectorButton": "Connect"
+
+}, 
+"ar": { 
+"toolTitle": "صندوق أدواتك الذكية", "toolSubtitle": "أنشئ تجربة مخصصة مع الذكاء الاصطناعي باستخدام الأدوات التي تحتاجها...", "trialTime": "الوقت المتبقي من الفترة التجريبية",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "أنشئ خريطتك الذهنية بمساعدة الذكاء الاصطناعي ووسّع أفكارك",
+"mindMapButton": "استخدام تجريبي مجاني",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "قم بتصفية الضوضاء الذهنية واستعد تركيزك",
+"noiseFilterButton": "فعّل الآن",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "قم بربط عالمك بنموذج الذكاء الاصطناعي ووسّع تجربتك",
+"aiConnectorButton": "اتصال"
+
+}, 
+"fr": { 
+"toolTitle": "Votre boîte à outils intelligente", "toolSubtitle": "Créez une expérience personnalisée avec l'IA selon vos besoins...", "trialTime": "Heures restantes de la période d’essai",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "Créez votre carte mentale avec l’aide de l’IA et développez vos idées",
+"mindMapButton": "Essai gratuit",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "Filtrez les bruits mentaux et retrouvez votre concentration",
+"noiseFilterButton": "Activer",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "Connectez votre monde au modèle d'IA et enrichissez votre expérience",
+"aiConnectorButton": "Connexion"
+
+}, 
+"es": { 
+"toolTitle": "Tu caja de herramientas inteligente", "toolSubtitle": "Crea una experiencia personalizada con IA usando las herramientas que necesitas...", "trialTime": "Horas restantes del periodo de prueba",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "Crea tu mapa mental con ayuda de la IA y expande tus ideas",
+"mindMapButton": "Uso gratuito de prueba",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "Filtra el ruido mental y recupera tu concentración",
+"noiseFilterButton": "Activar",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "Conecta tu mundo al modelo de IA y amplía tu experiencia",
+"aiConnectorButton": "Conectar"
+
+}, 
+"zh": { 
+"toolTitle": "您的智能工具箱", "toolSubtitle": "使用所需工具打造个性化的人工智能体验...", "trialTime": "试用期剩余时间",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "借助人工智能创建思维导图，扩展您的想法",
+"mindMapButton": "免费试用",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "过滤杂念，重新找回专注力",
+"noiseFilterButton": "立即启用",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "将您的世界连接到 AI 模型，扩展个人体验",
+"aiConnectorButton": "连接"
+
+}, 
+"ja": { 
+"toolTitle": "あなたのスマートツールボックス", "toolSubtitle": "必要なツールでAI体験をカスタマイズしよう...", "trialTime": "試用期間の残り時間",
+
+"mindMapTitle": "+MindMap",
+"mindMapDesc": "AIの力でマインドマップを作成し、アイデアを広げよう",
+"mindMapButton": "無料お試し利用",
+
+"noiseFilterTitle": "NoiseFilter",
+"noiseFilterDesc": "頭の中のノイズを除去して集中力を取り戻そう",
+"noiseFilterButton": "有効化する",
+
+"aiConnectorTitle": "AIConnector",
+"aiConnectorDesc": "あなたの世界をAIモデルに接続し、体験を広げよう",
+"aiConnectorButton": "接続"
+
+ }
+} 
